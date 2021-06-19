@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tamiflu233&#39;s Blog</title>
+  
+  <subtitle>一个小菜鸡</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-06-19T01:36:54.308Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Tamiflu233</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件协同设计期末复习</title>
+    <link href="http://example.com/2021/06/18/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>http://example.com/2021/06/18/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <published>2021-06-18T13:44:48.000Z</published>
+    <updated>2021-06-19T01:36:54.308Z</updated>
+    
+    <content type="html"><![CDATA[<h3 align = "center">软件协同期末复习</h1><hr><ol><li><p>团队有那几个角色，每个角色的职责是什么？</p><ul><li><p>小组长</p><ul><li>团队建设</li><li>活动的组织</li><li>项目的审核以及总结</li></ul><span id="more"></span><p><img src="/images/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210616233346337-1624026462955.png" alt="image-20210616233346337"></p></li><li><p>开发经理</p><ul><li>项目的设计与实现</li></ul><p><img src="/images/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210616233548609-1624026462955.png" alt="image-20210616233548609"></p></li><li><p>计划经理</p><p><img src="/images/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210616234046030-1624026462956.png" alt="image-20210616234046030"></p><p>质量经理</p><ul><li><p>计划的制定以及监控</p><p><img src="/images/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210616234112469-1624026462956.png" alt="image-20210616234112469"></p></li></ul></li><li><p>测试经理</p><ul><li>项目的测试</li></ul></li><li><p>产品经理</p><ul><li>项目的需求分析</li></ul><p><img src="/images/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210616233500310-1624026462956.png" alt="image-20210616233500310"></p></li></ul></li><li><p>计划阶段</p><ul><li>为什么要做计划?</li><li>要有多少种计划?课程中强调哪几种?</li><li>计划的作用</li><li>通过哪几步制定计划</li><li>W B S</li><li>每个计划包含的内容<ul><li>进度计划<ul><li>活动的定义</li><li>活动排序</li><li>算出每个活动所需要的资源</li><li>算出每个活动所需要的时间</li><li>用甘特图将算出来的进度画出来</li><li>写出进度计划报告</li></ul></li><li>质量计划</li><li>测试计划</li></ul></li></ul></li><li><p>系统需求分析阶段</p><ul><li>从哪几个方面对系统进行需求分析？<ul><li>系统用户的类型有哪些(角色)？</li><li>从角色出发获得系统的功能需求(必备,至少要有)</li><li>其他</li></ul></li><li>需要用到哪几个工具?<ul><li>用例图</li><li>用例说明</li><li>协作图</li><li>E-R图</li></ul></li><li>需求报告<ul><li>包含哪几点</li><li>质量如何</li></ul></li></ul></li><li><p>设计阶段</p><ul><li>设计哪几项<ul><li>系统平台确定<ul><li>开发环境</li><li>模式、架构(如M V C设计模式)<ul><li>页面设计</li><li>控制类设计</li><li>数据库设计</li></ul></li></ul></li><li>运行设计——时序图</li><li>给控制类画类图(包括关联)</li><li>活动图/流程图画类中方法的处理流程</li></ul></li></ul></li><li><p>开发阶段与测试阶段</p><ul><li>测试报告包含了哪些内容</li><li>测试用例正确理解，正确设定一个测试用例(重要)</li></ul></li></ol><hr><h3 id="题型"><a href="#题型" class="headerlink" title="题型"></a>题型</h3><ul><li>简答题 50分<ul><li>如每个阶段用什么工具、制定计划哪几步？</li></ul></li><li>案例设计 50分<ul><li>根据项目简介做<ul><li>需求分析</li><li>设计</li></ul></li></ul></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;h3 align = &quot;center&quot;&gt;软件协同期末复习&lt;/h1&gt;
+
+
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;团队有那几个角色，每个角色的职责是什么？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;小组长&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;团队建设&lt;/li&gt;
+&lt;li&gt;活动的组织&lt;/li&gt;
+&lt;li&gt;项目的审核以及总结&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="软件协同设计" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="期末" scheme="http://example.com/tags/%E6%9C%9F%E6%9C%AB/"/>
+    
+    <category term="复习提纲" scheme="http://example.com/tags/%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/"/>
+    
+    <category term="软件协同设计" scheme="http://example.com/tags/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>嵌入式期末复习</title>
+    <link href="http://example.com/2021/06/18/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>http://example.com/2021/06/18/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <published>2021-06-18T13:42:57.000Z</published>
+    <updated>2021-06-19T01:36:40.729Z</updated>
+    
+    <content type="html"><![CDATA[<h3 align="center">嵌入式期末复习</h3><hr><blockquote><p><strong>题型</strong>: </p><ul><li><strong>判断题</strong>(会有作业的单选和多选题)</li><li><strong>简答题</strong></li><li><strong>设计题</strong></li><li><strong>程序题</strong></li></ul></blockquote><span id="more"></span><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">OS.EVENT * mySem,myBox;</span><br><span class="line">main() &#123;</span><br><span class="line">    OSTaskCreate(sp,一个参数);</span><br><span class="line">    任务名称、堆栈指针(顶)、分配堆栈、优先级、任务代码</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>简答题 <strong>p p t 全有</strong></p></blockquote><p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/9E42F84B69AF2E020CAB13CC8796997F-1624026367098.jpg" alt="img"><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/D0DBC768767751AFBA2C89AD6D04B9B6-1624026367099.jpg" alt="img"></p><blockquote><h4 id="点灯的细节"><a href="#点灯的细节" class="headerlink" title="点灯的细节"></a>点灯的细节</h4><p>p33 —-p3口第三引脚</p><p>ARM 32位字长</p><p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/14BC44A5034B4BD3FF447FCF77146BF4-1624026367099.jpg" alt="img"></p><p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/9C00BD22061AEE082D8DCFE36105878F-1624026367099.jpg" alt="img"></p><p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/E2C273CEB24BAECB70A614F923E6C4C0-1624026367099.jpg" alt="img"></p></blockquote><blockquote><h4 id="等待列表和就绪表的计算"><a href="#等待列表和就绪表的计算" class="headerlink" title="等待列表和就绪表的计算"></a><em>等待列表</em>和<em>就绪表</em>的计算</h4><p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210618105144680-1624026367099.png" alt="image-20210618105144680"></p></blockquote><blockquote><h4 id="中断"><a href="#中断" class="headerlink" title="中断"></a>中断</h4><p>中断用<strong>MSP</strong></p><p>MSP 特权级堆栈指针</p><p>PSP 用户级堆栈指针</p><p>中断服务程序不可以创建任务、分配堆栈、设置延时等</p><p>调用了lock函数的任务不可以调用任何使它挂起的函数</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;h3 align=&quot;center&quot;&gt;嵌入式期末复习&lt;/h3&gt;
+
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;题型&lt;/strong&gt;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;判断题&lt;/strong&gt;(会有作业的单选和多选题)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简答题&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;设计题&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;程序题&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="嵌入式技术" scheme="http://example.com/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="复习提纲" scheme="http://example.com/tags/%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/"/>
+    
+    <category term="嵌入式" scheme="http://example.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    <category term="期末考试" scheme="http://example.com/tags/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分布式期末复习</title>
+    <link href="http://example.com/2021/06/18/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>http://example.com/2021/06/18/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <published>2021-06-18T12:43:22.000Z</published>
+    <updated>2021-06-19T01:36:15.171Z</updated>
+    
+    <content type="html"><![CDATA[<h3 align="center">分布式计算期末复习</h3><hr><blockquote><p>闭卷考A/B卷</p></blockquote><ol><li><strong>问答题</strong> * 4 —— 33%</li><li><strong>案例应用题</strong> * 3 —— 33%<ul><li>设计思路</li><li>框架</li></ul></li><li><strong>代码题</strong> * 4 —— 33%</li></ol><hr><span id="more"></span><ol><li><p>JAVA编程基础</p><ul><li>Lambda表达式，能将代码改成Lambda表达式</li><li>泛型能看懂</li></ul></li><li><p>JAVA高级功能</p><ul><li>会写反射代码(给你相关类和方法，按要求将类实例化对象，用反射来实例化成对象，用反射去调用方法(有参/无参)和成员变量，不可直接new!)</li><li>依赖注入DI和控制反转 I O C 的代码以及概念<ul><li>什么是依赖注入(来源于DIP依赖倒置)</li><li>什么是DIP</li><li>优点，解决了什么问题(解决了DIP)</li><li>如何反转控制?(用DI)</li><li>依赖注入常见的方式(主要是前两种构造函数注入和setter注入),会写代码</li><li>代码题: 用依赖注入改写程序</li></ul></li><li>代理模式<ul><li>A O P是代理模式的重要应用</li><li>代理模式的概念</li><li>静态代理与动态代理(动态更重要)</li><li>不考代码，但要知道动态代理实现的过程和概念</li><li>A O P的概念，要自己总结一个完整概念，为啥要有A O P(减小程序耦合度)</li><li>A O P的应用场景(日志、安全等)</li></ul></li><li>R P C<ul><li>概念</li><li>常见实现方案有哪些</li><li>框架的基本原理(会画那张图)</li></ul></li><li>R M I<ul><li>知道概念就行，不考代码</li></ul></li></ul></li><li><p>网络I/O</p><ul><li><p>基本概念: 阻塞、非阻塞、异步、同步…</p></li><li><p>网络I/O常见的通信模型</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617083724144.png" alt="image-20210617083724144"></p></li><li><p>Netty应用场景</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210618214012163.png" alt="image-20210618214012163"></p></li><li><p>现有R P C的解决方案(技术选型)</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617083950144.png" alt="image-20210617083950144"></p></li></ul></li><li><p>消息中间件M Q</p><ul><li><p>M Q能干啥</p></li><li><p>设计题，设计网络架构来解决应用场景(可用M Q，用具体产品，如Active M Q或Rabbit M Q)</p></li><li><p>能画这个设计方案的架构图</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617084716784.png" alt="image-20210617084716784"></p></li><li><p>M Q的概念</p></li></ul></li><li><p>分布式存储</p><ul><li><p>结构化、半结构化、非结构化</p></li><li><p>关系模型不考</p></li><li><p>主要考核</p><ul><li>非结构化数据——分布式文件系统Ha d o o p</li><li>半结构化数据——N O S Q L</li></ul></li><li><p>案例分析，给一个业务场景，用服务器的拆分、消息队列、缓存(用尽可能多的方案)，不会细到拆表</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617085320731.png" alt="image-20210617085320731"></p></li><li><p>NO S Q L</p><ul><li><p>理论基石C A P</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617085431930.png" alt="image-20210617085431930"></p></li><li><p>C A P的概念</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617085505592.png" alt="image-20210617085505592"></p></li><li><p>NO S Q L四大类型</p></li><li><p>主要考核redis</p><ul><li><p>REDIS架构图</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617085849979.png" alt="image-20210617085849979"></p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210618213609050-1624023438557.png" alt="image-20210618213609050"></p></li><li><p>给关系模型的表，让你转换成redis存储(案例分析题10分)</p></li></ul></li></ul></li></ul></li><li><p>分布式架构</p><ul><li>SOA和微服务概念</li></ul></li><li><p>大数据</p><ul><li><p>基本概念以及hadoop的使用</p></li><li><p>HDFS架构</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617090134059.png" alt="image-20210617090134059"></p><p>几个Node分别干嘛</p></li><li><p>hdfs基本命令(案例题，类似于实验1)</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617090220829.png" alt="image-20210617090220829"></p></li><li><p>MapReduce</p><ul><li><p>会写代码(WordCount)</p></li><li><p>Shuffling过程</p></li><li><p>会画图(不一定是WordCount，区别可能只是在Reducing),了解每一过程做了什么</p><p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617090634299.png" alt="image-20210617090634299"></p></li><li><p>会写Mapper函数和Reducer函数(类似实验2)</p></li></ul></li></ul></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;h3 align=&quot;center&quot;&gt;分布式计算期末复习&lt;/h3&gt;
+
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;闭卷考A/B卷&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;问答题&lt;/strong&gt; * 4 —— 33%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;案例应用题&lt;/strong&gt; * 3 —— 33%&lt;ul&gt;
+&lt;li&gt;设计思路&lt;/li&gt;
+&lt;li&gt;框架&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代码题&lt;/strong&gt; * 4 —— 33%&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="分布式计算" scheme="http://example.com/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97/"/>
+    
+    
+    <category term="分布式计算" scheme="http://example.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97/"/>
+    
+    <category term="期末" scheme="http://example.com/tags/%E6%9C%9F%E6%9C%AB/"/>
+    
+    <category term="复习提纲" scheme="http://example.com/tags/%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/"/>
+    
+  </entry>
+  
+</feed>
