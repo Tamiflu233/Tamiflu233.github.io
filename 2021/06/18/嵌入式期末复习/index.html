@@ -1,248 +1,32 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme-color" content=#58b77a>
-  <title>嵌入式期末复习 | Tamiflu233&#39;s Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Tamiflu233">
-  <meta name="keywords" content="博客，Tamiflu，个人网站，学习，生活">
-  <meta name="description" content="Tamiflu的个人博客">
-  <script id="hexo-configurations">
-  var CONFIG = {
-    root: '/',
-    theme: 'lx',
-    version: '0.3.9',
-    localsearch:{
-      "enable": false,
-      "trigger": "auto",
-      "top_n_per_article": 1,
-      "unescape": false,
-      "preload": false
-      },
-    path: 'null'
-  };
-</script>
+extends includes/layout.pug
 
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/css/main.min.css">
-  <style type="text/css">
-    pre,
-    code {
-      font-family: 'Fira Code', monospace;
-    }
-    html {
-      font-family: sans-serif;
-    }
-    body {
-      font-family: sans-serif;
-    }
-    h1, h2, h3, h4, h5, figure {
-      font-family: sans-serif;
-    }
-    .menu-container{
-      font-family: sans-serif;
-    }
-  </style>
+block content
+  #post
+    if top_img === false
+      include includes/header/post-info.pug
 
-  <script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/js/jquery.jside.menu.js"></script>
-	<script>
-	$(document).ready(function(){
-	$(".menu-container").jSideMenu({
-	    jSidePosition: "position-right",
-	    jSideSticky: true,
-	    jSideSkin: "greenish",
-	     });
-	}); 
-	</script>
-  
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
+    article#article-container.post-content!=page.content
+    include includes/post/post-copyright.pug
+    .tag_share
+      if (theme.post_meta.post.tags)
+        .post-meta__tag-list
+          each item, index in page.tags.data
+            a(href=url_for(item.path)).post-meta__tags #[=item.name]
+      include includes/third-party/share/index.pug
+        
+    if theme.reward.enable
+      !=partial('includes/post/reward', {}, {cache: true})
 
-<body>
-<div class="single">
+    //- ad
+    if theme.ad && theme.ad.post
+      .ads-wrap!=theme.ad.post
 
-<div id="page">
-<div id="lx-aside" style="background-image: url(//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/post_cover.jpeg)" data-stellar-background-ratio="0.5">
-  <div class="overlay">
-  <div class="page-title">
-    <div class="avatar"><a href="/"><img src="/images/avatar.jpeg"></a></div>
-    <span>2021-06-18</span>
-    <h2>嵌入式期末复习</h2>
-    <div class="tags"><i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/" rel="tag">复习提纲</a> <i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/" rel="tag">嵌入式</a> <i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/" rel="tag">期末考试</a></div>
-    </div>
-</div>
-</div>
+    if theme.post_pagination
+      include includes/pagination.pug
+    if theme.related_post && theme.related_post.enable
+      != related_posts(page,site.posts)
 
-<div id="lx-main-content">
-  <div class="lx-post">
-    <div class="lx-entry padding">
-      <div>
-        <h3 align="center">嵌入式期末复习</h3>
-
-<hr>
-<blockquote>
-<p><strong>题型</strong>: </p>
-<ul>
-<li><strong>判断题</strong>(会有作业的单选和多选题)</li>
-<li><strong>简答题</strong></li>
-<li><strong>设计题</strong></li>
-<li><strong>程序题</strong></li>
-</ul>
-</blockquote>
-<span id="more"></span>
-
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">OS.EVENT * mySem,myBox;</span><br><span class="line">main() &#123;</span><br><span class="line">    OSTaskCreate(sp,一个参数);</span><br><span class="line">    任务名称、堆栈指针(顶)、分配堆栈、优先级、任务代码</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>简答题 <strong>p p t 全有</strong></p>
-</blockquote>
-<p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/9E42F84B69AF2E020CAB13CC8796997F-1624026367098.jpg" alt="img"><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/D0DBC768767751AFBA2C89AD6D04B9B6-1624026367099.jpg" alt="img"></p>
-<blockquote>
-<h4 id="点灯的细节"><a href="#点灯的细节" class="headerlink" title="点灯的细节"></a>点灯的细节</h4><p>p33 —-p3口第三引脚</p>
-<p>ARM 32位字长</p>
-<p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/14BC44A5034B4BD3FF447FCF77146BF4-1624026367099.jpg" alt="img"></p>
-<p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/9C00BD22061AEE082D8DCFE36105878F-1624026367099.jpg" alt="img"></p>
-<p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/E2C273CEB24BAECB70A614F923E6C4C0-1624026367099.jpg" alt="img"></p>
-</blockquote>
-<blockquote>
-<h4 id="等待列表和就绪表的计算"><a href="#等待列表和就绪表的计算" class="headerlink" title="等待列表和就绪表的计算"></a><em>等待列表</em>和<em>就绪表</em>的计算</h4><p><img src="/images/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210618105144680-1624026367099.png" alt="image-20210618105144680"></p>
-</blockquote>
-<blockquote>
-<h4 id="中断"><a href="#中断" class="headerlink" title="中断"></a>中断</h4><p>中断用<strong>MSP</strong></p>
-<p>MSP 特权级堆栈指针</p>
-<p>PSP 用户级堆栈指针</p>
-<p>中断服务程序不可以创建任务、分配堆栈、设置延时等</p>
-<p>调用了lock函数的任务不可以调用任何使它挂起的函数</p>
-</blockquote>
-
-      </div>
-    </div>
-  </div>
-</div>
-<div class="lx-navigation">
-	<div class="lx-cover prev lx-cover-sm" style="background-image: url(//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/footer-l.jpeg)">
-		<div class="overlay"></div>
-		<a class="copy" href="/2021/06/18/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/">
-			<div class="display-t">
-				<div class="display-tc">
-					<div>
-						<span>Next</span>
-						<h3>软件协同设计期...</h3>
-					</div>
-				</div>
-			</div>
-		</a>
-	</div>
-        <div class="lx-cover next lx-cover-sm" style="background-image: url(//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/footer-r.jpeg)">
-		<div class="overlay"></div>
-		<a class="copy" href="/2021/06/18/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/">
-			<div class="display-t">
-				<div class="display-tc">
-					<div>
-						<span>Prev</span>
-						<h3>分布式期末复习</h3>
-					</div>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>
-
-</div>
-
-<footer>
-  <div>
-  Copyright &copy; 2021.<a href="/">Tamiflu233's Blog</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>
-  </div>
-</footer>
-
-</div>
-
-<button class="hamburger hamburger--arrow-r" type="button">
-    <div class="hamburger-box">
-      <div class="hamburger-inner"></div>
-    </div>
-</button> 
-<div class="menu visibility">
-  <div class="menu-head">
-    <span class="layer">
-      <div class="col">
-        <div class="row for-pic">
-          <div class="profile-pic">
-            <a href="/"><img src="/images/avatar.jpeg" alt="Tamiflu233"/></a>
-          </div>
-        </div>
-        <div class="row for-name">
-          <p>Tamiflu233</p>
-          <span class="tagline">Hello, World!</span>
-        </div>
-      </div>
-    </span>
-  </div>
-  <nav class="menu-container">
-  <ul class="menu-items">
-    <li><a href="/"><i class="fa fa-home fa-fw"></i>Home</a></li>
-    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
-    <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-th-list fa-fw"></i>Categories</span>
-        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97/">分布式计算</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%8A%80%E6%9C%AF/">嵌入式技术</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%AF%E4%BB%B6%E5%8D%8F%E5%90%8C%E8%AE%BE%E8%AE%A1/">软件协同设计</a></li></ul>
-    </li>
-    <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-bookmark fa-fw"></i>Pages</span>
-        <ul>
-          <li><a href="/guestbook/">Guestbook</a></li>
-        <li><a href="/about/">About</a></li>
-        </ul>
-    </li>
-    <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-link fa-fw"></i>Friends</span>
-        <ul>
-          <li> <a href="https://lx.js.org" target="_blank">Theme-Lx</a></li>
-        </ul>
-    </li>
-  </ul>
-  </nav>
-</div>
-
-<div class="gototop js-top">
-  <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
-</div>
-<script src="//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/js/jquery.easing.min.js"></script>
-<!-- 雪花特效 -->
-<script type="text/javascript" src="\js\snow.js"></script>
-<script>
-(function () {
-	"use strict";
-	var goToTop = function() {
-		$(".js-gotop").on("click", function(event){
-			event.preventDefault();
-			$("html, body").animate({
-				scrollTop: $("html").offset().top
-			}, 500, "easeInOutExpo");
-			return false;
-		});
-		$(window).scroll(function(){
-			var $win = $(window);
-			if ($win.scrollTop() > 200) {
-				$(".js-top").addClass("active");
-			} else {
-				$(".js-top").removeClass("active");
-			}
-		});
-	};
-	$(function(){
-		goToTop();
-	});
-}());
-</script>
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/love.js"></script>
-<!--单击显示文字-->
-<script type="text/javascript" src="/js/click_show_text.js"></script>
-
-
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
-</html>
+    if page.comments !== false && theme.comments && theme.comments.use
+      - var commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})
+      
