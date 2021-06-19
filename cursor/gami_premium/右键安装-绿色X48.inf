@@ -1,0 +1,57 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%loc%,%10%\%CUR_DIR%\%person%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+green_alt.cur
+green_working_48.ani
+busy_48.ani
+cross.cur
+diag1.cur
+diag2.cur
+handwriting.cur
+green_help.cur
+horiz.cur
+green_link.cur
+green_loc.cur
+green_normal.cur
+move.cur
+green_person.cur
+text.cur
+green_unavailable.cur
+vert.cur
+
+[Scheme.Txt]
+~README.txt
+
+[Strings]
+CUR_DIR       = "Cursors\gami\green"
+SCHEME_NAME   = "gami_green"
+pointer       = "green_normal.cur"
+help          = "green_help.cur"
+work          = "green_working_48.ani"
+busy          = "busy_48.ani"
+text          = "text.cur"
+unavailable   = "green_unavailable.cur"
+vert          = "vert.cur"
+horz          = "horiz.cur"
+dgn1          = "diag1.cur"
+dgn2          = "diag2.cur"
+move          = "move.cur"
+link          = "green_link.cur"
+cross         = "cross.cur"
+hand          = "handwriting.cur"
+alternate     = "green_alt.cur"
+loc	      = "green_loc.cur"
+person	      = "green_person.cur"
