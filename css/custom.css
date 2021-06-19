@@ -114,3 +114,25 @@ i:hover{
 #nav .site-page:hover{
       cursor: url('/cursor/gami_premium/blue_link.cur'),auto;
 }
+#fixedElement{
+  position: fixed;
+  width: 60px
+  /* 假定宽度是60px */
+  bottom: 60px;
+  /* 定义元素下边框与浏览器下边框的距离 */
+  left: -30px;
+  /* 定义元素左边框与浏览器左边框的距离 */
+  /* 此时效果上此按钮应当缩进侧栏一半 */
+}
+#fixedElement:hover{
+  left: 0px;
+}
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
