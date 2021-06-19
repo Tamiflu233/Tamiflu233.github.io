@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content=#58b77a>
+  <title>分布式期末复习 | Tamiflu233&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Tamiflu233">
+  <meta name="keywords" content="博客，Tamiflu，个人网站，学习，生活">
+  <meta name="description" content="Tamiflu的个人博客">
+  <script id="hexo-configurations">
+  var CONFIG = {
+    root: '/',
+    theme: 'lx',
+    version: '0.3.9',
+    localsearch:{
+      "enable": false,
+      "trigger": "auto",
+      "top_n_per_article": 1,
+      "unescape": false,
+      "preload": false
+      },
+    path: 'null'
+  };
+</script>
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/css/main.min.css">
+  <style type="text/css">
+    pre,
+    code {
+      font-family: 'Fira Code', monospace;
+    }
+    html {
+      font-family: sans-serif;
+    }
+    body {
+      font-family: sans-serif;
+    }
+    h1, h2, h3, h4, h5, figure {
+      font-family: sans-serif;
+    }
+    .menu-container{
+      font-family: sans-serif;
+    }
+  </style>
+
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/js/jquery.jside.menu.js"></script>
+	<script>
+	$(document).ready(function(){
+	$(".menu-container").jSideMenu({
+	    jSidePosition: "position-right",
+	    jSideSticky: true,
+	    jSideSkin: "greenish",
+	     });
+	}); 
+	</script>
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
+
+<body>
+<div class="single">
+
+<div id="page">
+<div id="lx-aside" style="background-image: url(//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/post_cover.jpeg)" data-stellar-background-ratio="0.5">
+  <div class="overlay">
+  <div class="page-title">
+    <div class="avatar"><a href="/"><img src="/images/avatar.jpeg"></a></div>
+    <span>2021-06-18</span>
+    <h2>分布式期末复习</h2>
+    <div class="tags"><i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97/" rel="tag">分布式计算</a> <i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/" rel="tag">复习提纲</a> <i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E6%9C%9F%E6%9C%AB/" rel="tag">期末</a></div>
+    </div>
+</div>
+</div>
+
+<div id="lx-main-content">
+  <div class="lx-post">
+    <div class="lx-entry padding">
+      <div>
+        <h3 align="center">分布式计算期末复习</h3>
+
+<hr>
+<blockquote>
+<p>闭卷考A/B卷</p>
+</blockquote>
+<ol>
+<li><strong>问答题</strong> * 4 —— 33%</li>
+<li><strong>案例应用题</strong> * 3 —— 33%<ul>
+<li>设计思路</li>
+<li>框架</li>
+</ul>
+</li>
+<li><strong>代码题</strong> * 4 —— 33%</li>
+</ol>
+<hr>
+<span id="more"></span>
+
+<ol>
+<li><p>JAVA编程基础</p>
+<ul>
+<li>Lambda表达式，能将代码改成Lambda表达式</li>
+<li>泛型能看懂</li>
+</ul>
+</li>
+<li><p>JAVA高级功能</p>
+<ul>
+<li>会写反射代码(给你相关类和方法，按要求将类实例化对象，用反射来实例化成对象，用反射去调用方法(有参/无参)和成员变量，不可直接new!)</li>
+<li>依赖注入DI和控制反转 I O C 的代码以及概念<ul>
+<li>什么是依赖注入(来源于DIP依赖倒置)</li>
+<li>什么是DIP</li>
+<li>优点，解决了什么问题(解决了DIP)</li>
+<li>如何反转控制?(用DI)</li>
+<li>依赖注入常见的方式(主要是前两种构造函数注入和setter注入),会写代码</li>
+<li>代码题: 用依赖注入改写程序</li>
+</ul>
+</li>
+<li>代理模式<ul>
+<li>A O P是代理模式的重要应用</li>
+<li>代理模式的概念</li>
+<li>静态代理与动态代理(动态更重要)</li>
+<li>不考代码，但要知道动态代理实现的过程和概念</li>
+<li>A O P的概念，要自己总结一个完整概念，为啥要有A O P(减小程序耦合度)</li>
+<li>A O P的应用场景(日志、安全等)</li>
+</ul>
+</li>
+<li>R P C<ul>
+<li>概念</li>
+<li>常见实现方案有哪些</li>
+<li>框架的基本原理(会画那张图)</li>
+</ul>
+</li>
+<li>R M I<ul>
+<li>知道概念就行，不考代码</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>网络I/O</p>
+<ul>
+<li><p>基本概念: 阻塞、非阻塞、异步、同步…</p>
+</li>
+<li><p>网络I/O常见的通信模型</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617083724144.png" alt="image-20210617083724144"></p>
+</li>
+<li><p>Netty应用场景</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210618214012163.png" alt="image-20210618214012163"></p>
+</li>
+<li><p>现有R P C的解决方案(技术选型)</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617083950144.png" alt="image-20210617083950144"></p>
+</li>
+</ul>
+</li>
+<li><p>消息中间件M Q</p>
+<ul>
+<li><p>M Q能干啥</p>
+</li>
+<li><p>设计题，设计网络架构来解决应用场景(可用M Q，用具体产品，如Active M Q或Rabbit M Q)</p>
+</li>
+<li><p>能画这个设计方案的架构图</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617084716784.png" alt="image-20210617084716784"></p>
+</li>
+<li><p>M Q的概念</p>
+</li>
+</ul>
+</li>
+<li><p>分布式存储</p>
+<ul>
+<li><p>结构化、半结构化、非结构化</p>
+</li>
+<li><p>关系模型不考</p>
+</li>
+<li><p>主要考核</p>
+<ul>
+<li>非结构化数据——分布式文件系统Ha d o o p</li>
+<li>半结构化数据——N O S Q L</li>
+</ul>
+</li>
+<li><p>案例分析，给一个业务场景，用服务器的拆分、消息队列、缓存(用尽可能多的方案)，不会细到拆表</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617085320731.png" alt="image-20210617085320731"></p>
+</li>
+<li><p>NO S Q L</p>
+<ul>
+<li><p>理论基石C A P</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617085431930.png" alt="image-20210617085431930"></p>
+</li>
+<li><p>C A P的概念</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617085505592.png" alt="image-20210617085505592"></p>
+</li>
+<li><p>NO S Q L四大类型</p>
+</li>
+<li><p>主要考核redis</p>
+<ul>
+<li><p>REDIS架构图</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617085849979.png" alt="image-20210617085849979"></p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210618213609050-1624023438557.png" alt="image-20210618213609050"></p>
+</li>
+<li><p>给关系模型的表，让你转换成redis存储(案例分析题10分)</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>分布式架构</p>
+<ul>
+<li>SOA和微服务概念</li>
+</ul>
+</li>
+<li><p>大数据</p>
+<ul>
+<li><p>基本概念以及hadoop的使用</p>
+</li>
+<li><p>HDFS架构</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617090134059.png" alt="image-20210617090134059"></p>
+<p>几个Node分别干嘛</p>
+</li>
+<li><p>hdfs基本命令(案例题，类似于实验1)</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617090220829.png" alt="image-20210617090220829"></p>
+</li>
+<li><p>MapReduce</p>
+<ul>
+<li><p>会写代码(WordCount)</p>
+</li>
+<li><p>Shuffling过程</p>
+</li>
+<li><p>会画图(不一定是WordCount，区别可能只是在Reducing),了解每一过程做了什么</p>
+<p><img src="/images/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/image-20210617090634299.png" alt="image-20210617090634299"></p>
+</li>
+<li><p>会写Mapper函数和Reducer函数(类似实验2)</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="lx-navigation">
+	<div class="lx-cover prev lx-cover-sm" style="background-image: url(//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/footer-l.jpeg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2021/06/18/%E5%B5%8C%E5%85%A5%E5%BC%8F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Next</span>
+						<h3>嵌入式期末复习</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+        <div class="lx-cover next lx-cover-sm" style="background-image: url(//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/footer-r.jpeg)">
+		<div class="overlay"></div>
+		<a class="copy" href="#">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Prev</span>
+						<h3>No older post</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+</div>
+
+<footer>
+  <div>
+  Copyright &copy; 2021.<a href="/">Tamiflu233's Blog</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>
+  </div>
+</footer>
+
+</div>
+
+<button class="hamburger hamburger--arrow-r" type="button">
+    <div class="hamburger-box">
+      <div class="hamburger-inner"></div>
+    </div>
+</button> 
+<div class="menu visibility">
+  <div class="menu-head">
+    <span class="layer">
+      <div class="col">
+        <div class="row for-pic">
+          <div class="profile-pic">
+            <a href="/"><img src="/images/avatar.jpeg" alt="Tamiflu233"/></a>
+          </div>
+        </div>
+        <div class="row for-name">
+          <p>Tamiflu233</p>
+          <span class="tagline">Hello, World!</span>
+        </div>
+      </div>
+    </span>
+  </div>
+  <nav class="menu-container">
+  <ul class="menu-items">
+    <li><a href="/"><i class="fa fa-home fa-fw"></i>Home</a></li>
+    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+    
+    <li class="has-sub"><span class="dropdown-heading">
+      <i class="fa fa-bookmark fa-fw"></i>Pages</span>
+        <ul>
+          <li><a href="/guestbook/">Guestbook</a></li>
+        <li><a href="/about/">About</a></li>
+        </ul>
+    </li>
+    <li class="has-sub"><span class="dropdown-heading">
+      <i class="fa fa-link fa-fw"></i>Friends</span>
+        <ul>
+          <li> <a href="https://lx.js.org" target="_blank">Theme-Lx</a></li>
+        </ul>
+    </li>
+  </ul>
+  </nav>
+</div>
+
+<div class="gototop js-top">
+  <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+</div>
+<script src="//cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/js/jquery.easing.min.js"></script>
+<!-- 雪花特效 -->
+<script type="text/javascript" src="\js\snow.js"></script>
+<script>
+(function () {
+	"use strict";
+	var goToTop = function() {
+		$(".js-gotop").on("click", function(event){
+			event.preventDefault();
+			$("html, body").animate({
+				scrollTop: $("html").offset().top
+			}, 500, "easeInOutExpo");
+			return false;
+		});
+		$(window).scroll(function(){
+			var $win = $(window);
+			if ($win.scrollTop() > 200) {
+				$(".js-top").addClass("active");
+			} else {
+				$(".js-top").removeClass("active");
+			}
+		});
+	};
+	$(function(){
+		goToTop();
+	});
+}());
+</script>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/love.js"></script>
+<!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
