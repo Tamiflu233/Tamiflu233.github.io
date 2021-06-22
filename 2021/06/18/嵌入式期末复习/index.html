@@ -221,13 +221,16 @@ setTimeout(function(){preloader.endLoading();}, 5000);</script><div class="js-pj
       emojiMaps: "",
       enableQQ: true,
       path: window.location.pathname,
+      master: 'c121e29a2fe73259a78e04e789853d08'.split(','),
+      friends: 'a89a30327963b6dabd46dce6402b2c70,a713b2d47d13190c33d66afb8a8f3078,b6fc5f5bec33063346fe0ac25c420922,c1f42e0ef1c5309dd137e61d9530bf9e'.split(','),
+      tagMeta: '博主,小伙伴,访客'.split(','),
       requiredFields: ["nick,mail"],
       visitor: false
     }, null))
   }
 
   if (typeof Valine === 'function') initValine() 
-  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+  else getScript('https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js').then(initValine)
 }
 
 if ('Valine' === 'Valine' || !true) {
