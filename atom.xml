@@ -6,7 +6,7 @@
   <link href="https://tamiflu233.com/atom.xml" rel="self"/>
   
   <link href="https://tamiflu233.com/"/>
-  <updated>2021-06-22T15:58:53.216Z</updated>
+  <updated>2021-06-23T08:33:35.262Z</updated>
   <id>https://tamiflu233.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件测试期末复习</title>
+    <link href="https://tamiflu233.com/2021/06/23/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>https://tamiflu233.com/2021/06/23/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <published>2021-06-23T08:08:22.000Z</published>
+    <updated>2021-06-23T08:33:35.262Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="软件测试期末复习"><a href="#软件测试期末复习" class="headerlink" title="软件测试期末复习"></a>软件测试期末复习</h1><h2 id="1-开卷"><a href="#1-开卷" class="headerlink" title="1. 开卷"></a>1. 开卷</h2><ul><li>书: Selenium3自动化测试实战</li><li>纸质的课件: 自动化性能测试Loadrunner课件-2020.docx</li></ul><div class="tip warning faa-horizontal animated"><p><span class='p red h4'>其他纸质材料</span>不能带,不能带<wavy>电子设备</wavy></p></div><h2 id="2-题型"><a href="#2-题型" class="headerlink" title="2. 题型"></a>2. 题型</h2><ol><li>填空题</li><li>简答题</li><li>计算题</li><li>编程题</li></ol><h2 id="3-复习内容"><a href="#3-复习内容" class="headerlink" title="3. 复习内容"></a>3. 复习内容</h2><ol><li><p>自动化功能测试</p><span class='p green h4'>《Selenium3 自动化测试实战》</span>前11章(<wavy>不包括第10章</wavy>)</li><li><p>自动化性能测试</p><span class='p green h4'>《自动化性能测试Loadrunner课件-2020.docx》</span>全部内容，(<wavy>偏重于VUG</wavy>)</li></ol><div class="tip faa-horizontal animated"><p>自动化功能测试的比重略大于自动化性能测试。</p></div><div class="tag link"><a class="link-card" title="loadrunner课件下载地址" href="https://mooc1-1.chaoxing.com/coursedata/toPreview?courseId=217010042&dataId=310447029&objectId=ab4dd70e9004dd337db227e2643dbe79&classId=37897243&ut=s&cpi=77164481"><div class="left"><img src="/img/favicon.png"/></div><div class="right"><p class="text">loadrunner课件下载地址</p><p class="url">https://mooc1-1.chaoxing.com/coursedata/toPreview?courseId=217010042&dataId=310447029&objectId=ab4dd70e9004dd337db227e2643dbe79&classId=37897243&ut=s&cpi=77164481</p></div></a></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;软件测试期末复习&quot;&gt;&lt;a href=&quot;#软件测试期末复习&quot; class=&quot;headerlink&quot; title=&quot;软件测试期末复习&quot;&gt;&lt;/a&gt;软件测试期末复习&lt;/h1&gt;&lt;h2 id=&quot;1-开卷&quot;&gt;&lt;a href=&quot;#1-开卷&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="🏳‍🌈软件测试" scheme="https://tamiflu233.com/categories/%F0%9F%8F%B3%E2%80%8D%F0%9F%8C%88%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="🌹期末" scheme="https://tamiflu233.com/tags/%F0%9F%8C%B9%E6%9C%9F%E6%9C%AB/"/>
+    
+    <category term="🎁复习提纲" scheme="https://tamiflu233.com/tags/%F0%9F%8E%81%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/"/>
+    
+    <category term="🚀软件测试" scheme="https://tamiflu233.com/tags/%F0%9F%9A%80%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>软件协同设计期末复习</title>
