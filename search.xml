@@ -8,7 +8,7 @@
       <link href="/posts/a75fd34c.html"/>
       <url>/posts/a75fd34c.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="博客总结"><a href="#博客总结" class="headerlink" title="博客总结"></a>博客总结</h1><h2 id="1-初衷以及为何不更新的原因"><a href="#1-初衷以及为何不更新的原因" class="headerlink" title="1. 初衷以及为何不更新的原因"></a>1. 初衷以及为何不更新的原因</h2><pre><code>这个博客是我当初大三的时候创建的。那时候个人对前端比较感兴趣一点，看到别人“花里胡哨”的博客，想着自己也得整一个，于是就有了这个博客。仅仅需要使用Hexo的几行代码就可以建立起自己的主页，并且有了github page也不需要自己单独租一个服务器了。遗憾的是，在我美化完自己的博客后，一直没有什么有价值的内容来进行分享，再加上自己的懈怠也没有再进行更新了。希望之后自己能重新使用好这一工具。</code></pre><h2 id="2-主题与个性化"><a href="#2-主题与个性化" class="headerlink" title="2. 主题与个性化"></a>2. 主题与个性化</h2><pre><code>因为我喜欢捣鼓样式，想要做的比较花哨，所以我选用了Hexo的butterfly主题，在该主题的基础上进行魔改。博客的总体风格偏向于卡通、唯美。</code></pre><h2 id="3-布局和设计思路"><a href="#3-布局和设计思路" class="headerlink" title="3. 布局和设计思路"></a>3. 布局和设计思路</h2><pre><code>布局上比较中规中矩，顶部是工具栏，可以进行全局搜索、查看时间轴、查看分类、标签、歌单等等。侧边栏展示我的个人信息、公告、时钟，还有一些有意思的小插件，并显示一些最新的文章。中间展示博客的所有文章、github calendar等</code></pre><h2 id="4-技术"><a href="#4-技术" class="headerlink" title="4. 技术"></a>4. 技术</h2><pre><code>主要是基于hexo框架，并且配置了github图床(jsdelivr cdn)、使用git action来自动部署、配置域名解析、gulp压缩静态资源、pwa优化、seo优化等。</code></pre><h2 id="5-过程中遇到的问题"><a href="#5-过程中遇到的问题" class="headerlink" title="5. 过程中遇到的问题"></a>5. 过程中遇到的问题</h2><pre><code>时常会有静态资源、插件不显示(例如看板娘、时钟等插件)，git action莫名其妙报错等问题。不过在排查问题的过程中也能让我学到不少。例如静态资源的问题，多半是因为图床出了问题(之前用的unpkg cdn挂掉了)，插件多半是因为版本迭代出现的bug。</code></pre>]]></content>
       
       
       <categories>
